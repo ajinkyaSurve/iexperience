@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="angularjs" Version="1.6.6" />
+    <PackageReference Include="AngularJS.Animate" Version="1.6.8" />
+    <PackageReference Include="AngularJs.Chart.Js" Version="1.1.0" />
+    <PackageReference Include="System.Data.SQLite.Mac" Version="1.0.104.2" />
+    <PackageReference Include="bootstrap" Version="4.0.0" />
+    <PackageReference Include="angular-ui-grid" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools">
+      <Version>2.0.0</Version>
+    </DotNetCliToolReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\AngularJs\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="ScriptsNg\Controllers\" />
+    <Folder Include="ScriptsNg\Service\" />
+    <Folder Include="wwwroot\ScriptsNg\" />
+    <Folder Include="ScriptsNg\" />
+  </ItemGroup>
+</Project>
