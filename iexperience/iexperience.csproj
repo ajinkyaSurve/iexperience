@@ -21,10 +21,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AngularJs\" />
-    <Folder Include="Resources\" />
     <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
     <Folder Include="wwwroot\ScriptsNg\" />
+    <Folder Include="wwwroot\Resources\" />
   </ItemGroup>
 </Project>

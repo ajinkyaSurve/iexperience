@@ -10,12 +10,9 @@ namespace iexperience.Repositories
         public Connection()
         {
             StartupPath = "Data Source=" + Environment.CurrentDirectory +
-                                     "/Resources/ExpDataStore.db;";
+                                     "/wwwroot/Resources/ExpDataStore.db;";
         }
 
-        public SQLiteConnection GetConnection()
-        {
-            return new SQLiteConnection(StartupPath);
-        }
+        public SQLiteConnection GetConnection() => new SQLiteConnection(StartupPath);
     }
 }
