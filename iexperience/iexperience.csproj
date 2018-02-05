@@ -25,9 +25,6 @@
     <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
-    <Folder Include="ScriptsNg\Controllers\" />
-    <Folder Include="ScriptsNg\Service\" />
     <Folder Include="wwwroot\ScriptsNg\" />
-    <Folder Include="ScriptsNg\" />
   </ItemGroup>
 </Project>
