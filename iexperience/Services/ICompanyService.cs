@@ -7,6 +7,6 @@ namespace iexperience.Services
     {
         bool SaveCompany(Company c);
         Company GetCompany(int companyId);
-        List<Company> GetAllCompanies();
+        IEnumerable<Company> GetAllCompanies();
     }
 }

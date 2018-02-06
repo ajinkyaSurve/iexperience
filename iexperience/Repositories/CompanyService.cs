@@ -46,7 +46,7 @@ namespace iexperience.Repositories
 
         }
 
-        public List<Company> GetAllCompanies()
+        public IEnumerable<Company> GetAllCompanies()
         {
             List<Company> cmp = new List<Company>();
             using (var conn = _conSvc.GetConnection())
