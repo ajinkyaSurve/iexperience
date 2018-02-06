@@ -1,5 +1,5 @@
 
-app.controller('ProductsCtrl', ['$scope', 'CRUDService', 'uiGridConstants',
+app.controller('CompanyCtrl', ['$scope', 'CRUDService', 'uiGridConstants',
     function ($scope, CRUDService, uiGridConstants) {
         $scope.gridOptions = [];
 
@@ -62,6 +62,7 @@ app.controller('ProductsCtrl', ['$scope', 'CRUDService', 'uiGridConstants',
                     return '';
                 }
             };
+            //The columnDefs name below should be camel cased.
             $scope.gridOptions = {
                 useExternalPagination: true,
                 useExternalSorting: true,
@@ -72,11 +73,11 @@ app.controller('ProductsCtrl', ['$scope', 'CRUDService', 'uiGridConstants',
                 enableGridMenu: true,
 
                 columnDefs: [
-                    { name: "CompanyID", displayName: "Company ID", width: '10%', headerCellClass: $scope.highlightFilteredHeader },
-                    { name: "CompanyName", title: "Company Name", width: '30%', headerCellClass: $scope.highlightFilteredHeader },
-                    { name: "CompanyAddress", title: "Company Address", width: '20%', headerCellClass: $scope.highlightFilteredHeader },
-                    { name: "CompanyPhoneNumber", title: "Company Phone #", width: '20%', headerCellClass: $scope.highlightFilteredHeader },
-                    { name: "IsActive", title: "Is Company Active", width: '10%', headerCellClass: $scope.highlightFilteredHeader }
+                    { name: "companyId", displayName: "Company ID", width: '10%', headerCellClass: $scope.highlightFilteredHeader },
+                    { name: "companyName", title: "Company Name", width: '30%', headerCellClass: $scope.highlightFilteredHeader },
+                    { name: "companyAddress", title: "Company Address", width: '20%', headerCellClass: $scope.highlightFilteredHeader },
+                    { name: "companyPhoneNumber", title: "Company Phone #", width: '20%', headerCellClass: $scope.highlightFilteredHeader },
+                    { name: "isActive", title: "Is Company Active", width: '10%', headerCellClass: $scope.highlightFilteredHeader }
                 ],
                 exporterAllDataFn: function () {
                     return getPage(1, $scope.gridOptions.totalItems, paginationOptions.sort)

@@ -4,7 +4,7 @@
 <H2>@ViewData["Title"]</H2>
 <br/>
 <div class="row">
-    <div class="col-md-12" ng-controller="ProductsCtrl">
+    <div class="col-md-12" ng-controller="CompanyCtrl">
         <div ui-grid="gridOptions"
              ui-grid-resize-columns
              ui-grid-move-columns
@@ -90,3 +90,7 @@
         <p>{{SelectedRow}}</p>
     </div>
 </div>
+@section AngularScript{
+    <script src="~/ScriptsNg/Controllers/CompanyCtrl.js"></script>
+    <script src="~/ScriptsNg/Service/CRUDService.js"></script>
+}

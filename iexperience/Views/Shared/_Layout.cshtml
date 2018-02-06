@@ -10,28 +10,11 @@
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
                 <!-- UIGrid Style Refferences -->
-    <link href="~/css/ui-grid.min.css" rel="stylesheet" />
-    <script src="~/lib/angular-scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/lib/angular-scripts/bootstrap.min.js"></script>
+    <link href="~/css/ui-grid.css" rel="stylesheet" />
+    <!--<script src="~/lib/angular-scripts/jquery-1.10.2.min.js"></script>-->
+    <!--<script src="~/lib/angular-scripts/bootstrap.min.js"></script>-->
+            <script src="~/lib/angular-scripts/modernizr-2.6.2.js"></script>
 
-    <!-- Angular Refferences -->
-    <script src="~/lib/angular-scripts/angular.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-route.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-touch.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-animate.min.js"></script>
-
-    <!-- UIGrid Refferences -->
-    <script src="~/lib/angular-scripts/ui-grid.min.js"></script>
-
-    <!-- Export UIGrid Refferences -->
-    <script src="~/lib/angular-scripts/export-ui-grid/csv.js"></script>
-    <script src="~/lib/angular-scripts/export-ui-grid/pdfmake.js"></script>
-    <script src="~/lib/angular-scripts/export-ui-grid/vfs_fonts.js"></script>
-
-    <!-- App Angular Refferences -->
-    <script src="~/ScriptsNg/Modules/UIGrid_App.js"></script>
-    <script src="~/ScriptsNg/Controllers/ProductsCtrl.js"></script>
-    <script src="~/ScriptsNg/Service/CRUDService.js"></script>
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -40,28 +23,10 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
                 <!-- UIGrid Style Refferences -->
-    <link href="~/css/ui-grid.min.css" rel="stylesheet" />
-    <script src="~/lib/angular-scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/lib/angular-scripts/bootstrap.min.js"></script>
+    <link href="~/css/ui-grid.css" rel="stylesheet" />
+    <!--<script src="~/lib/angular-scripts/jquery-1.10.2.min.js"></script>-->
+    <!--<script src="~/lib/angular-scripts/bootstrap.min.js"></script>-->
 
-    <!-- Angular Refferences -->
-    <script src="~/lib/angular-scripts/angular.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-route.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-touch.min.js"></script>
-    <script src="~/lib/angular-scripts/angular-animate.min.js"></script>
-
-    <!-- UIGrid Refferences -->
-    <script src="~/lib/angular-scripts/ui-grid.min.js"></script>
-
-    <!-- Export UIGrid Refferences -->
-    <script src="~/lib/angular-scripts/export-ui-grid/csv.js"></script>
-    <script src="~/lib/angular-scripts/export-ui-grid/pdfmake.js"></script>
-    <script src="~/lib/angular-scripts/export-ui-grid/vfs_fonts.js"></script>
-
-    <!-- App Angular Refferences -->
-    <script src="~/ScriptsNg/Modules/UIGrid_App.js"></script>
-    <script src="~/ScriptsNg/Controllers/ProductsCtrl.js"></script>
-    <script src="~/ScriptsNg/Service/CRUDService.js"></script>
     </environment>
 </head>
 <body class="ng-cloak" ng-app="UIGrid_App">
@@ -81,7 +46,7 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="AngularJs" asp-action="MyPage">AngularJs</a></li>   
+                    <li><a asp-area="" asp-controller="AngularJs" asp-action="MyPage">Angular 4 Grid Demo</a></li>   
                 </ul>
             </div>
         </div>
@@ -114,8 +79,26 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+        <!-- Angular Refferences -->
+    <script src="~/lib/angular-scripts/angular.min.js"></script>
+    <script src="~/lib/angular-scripts/angular-route.min.js"></script>
+    <script src="~/lib/angular-scripts/angular-touch.min.js"></script>
+    <script src="~/lib/angular-scripts/angular-animate.min.js"></script>
 
-    @RenderSection("Scripts", required: false)
+    <!-- UIGrid Refferences -->
+    <script src="~/lib/angular-scripts/ui-grid.js"></script>
+
+    <!-- Export UIGrid Refferences -->
+    <script src="~/lib/angular-scripts/export-ui-grid/csv.js"></script>
+    <script src="~/lib/angular-scripts/export-ui-grid/pdfmake.js"></script>
+    <script src="~/lib/angular-scripts/export-ui-grid/vfs_fonts.js"></script>
+
+    <!-- App Angular Refferences -->
+    <script src="~/ScriptsNg/Modules/UIGrid_App.js"></script>
+<!--    <script src="~/ScriptsNg/Controllers/CompanyCtrl.js"></script>
+    <script src="~/ScriptsNg/Service/CRUDService.js"></script>-->
     @RenderSection("AngularScript", false)  
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>
