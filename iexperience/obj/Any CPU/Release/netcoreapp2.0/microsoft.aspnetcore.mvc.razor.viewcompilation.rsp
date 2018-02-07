@@ -1,0 +1,13 @@
+C:\Users\ajink\source\repos\iexperience\iexperience
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=iexperience
+--content-root=C:\Users\ajink\source\repos\iexperience\iexperience
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\AngularJs\MyPage.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Home\About.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Home\Contact.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Home\Index.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Shared\Error.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Shared\_Layout.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\_ViewImports.cshtml
+--file=C:\Users\ajink\source\repos\iexperience\iexperience\Views\_ViewStart.cshtml

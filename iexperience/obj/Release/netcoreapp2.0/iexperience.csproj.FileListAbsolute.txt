@@ -1,0 +1,13 @@
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\iexperience.deps.json
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\iexperience.runtimeconfig.json
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\iexperience.runtimeconfig.dev.json
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\iexperience.dll
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\iexperience.pdb
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.csproj.CoreCompileInputs.cache
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.AssemblyInfoInputs.cache
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.AssemblyInfo.cs
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.dll
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.pdb
+C:\Users\ajink\source\repos\iexperience\iexperience\obj\Release\netcoreapp2.0\iexperience.csprojResolveAssemblyReference.cache
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\x64\SQLite.Interop.dll
+C:\Users\ajink\source\repos\iexperience\iexperience\bin\Release\netcoreapp2.0\x86\SQLite.Interop.dll

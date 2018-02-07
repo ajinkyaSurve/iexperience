@@ -2,24 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+	<ContentSQLiteInteropFiles>true</ContentSQLiteInteropFiles>
+    <CopySQLiteInteropFiles>false</CopySQLiteInteropFiles>
+    <CleanSQLiteInteropFiles>false</CleanSQLiteInteropFiles>
+    <CollectSQLiteInteropFiles>false</CollectSQLiteInteropFiles>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\iexperience - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="angularjs" Version="1.6.6" />
     <PackageReference Include="AngularJS.Animate" Version="1.6.8" />
     <PackageReference Include="AngularJs.Chart.Js" Version="1.1.0" />
-    <PackageReference Include="System.Data.SQLite.Mac" Version="1.0.104.2" />
     <PackageReference Include="bootstrap" Version="4.0.0" />
     <PackageReference Include="angular-ui-grid" Version="4.2.0" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.3" />
-  </ItemGroup>
-  <ItemGroup>
+    <PackageReference Include="SQLite.Interop.dll" Version="1.0.103" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.107" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools">
       <Version>2.0.0</Version>
     </DotNetCliToolReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\AngularJs\" />
     <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
@@ -38,4 +46,9 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <Content Update="C:\Users\ajink\.nuget\packages\system.data.sqlite.core\1.0.107\build\net46\x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
